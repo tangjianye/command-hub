@@ -6,16 +6,16 @@
 #------------------------------------------------------------------------------#
 
 echo ============chrony-date-synchronize start============
-echo 安装 chrony
-yum install chrony
+echo 安装 chrony;
+yum install chrony;
 
 echo 启用 chrony
-systemctl start chronyd
-systemctl enable chronyd
+systemctl start chronyd;
+systemctl enable chronyd;
 
 echo 设置中国时区
-timedatectl set-timezone Asia/Shanghai
+timedatectl set-timezone Asia/Shanghai;
 
 echo 启用NTP同步
-timedatectl set-ntp yes
+timedatectl set-ntp yes;
 echo ============chrony-date-synchronize end============
