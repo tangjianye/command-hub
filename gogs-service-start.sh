@@ -18,5 +18,4 @@ else
   echo "$gogsDir not exists."
 fi
 
-
 echo ======================Commond End======================
